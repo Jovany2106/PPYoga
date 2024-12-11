@@ -590,11 +590,13 @@ titulo-planes {
 /*imagen con hover*/
 
 .contenedor2 {
-    width: 100%;
+    width: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
     height: auto;
+    margin: 0 auto; 
+    padding: 10px;
 }
 
 .contenedor2 figure {
