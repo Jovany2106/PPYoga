@@ -589,29 +589,32 @@ titulo-planes {
 
 /*imagen con hover*/
 
+
+
 .contenedor2 {
-    width: 90%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     height: auto;
-    margin: 0 auto; 
-    padding: 10px;
+    padding: 10px; /* Espaciado interno */
 }
 
 .contenedor2 figure {
     position: relative;
-    width: 400px;
-    height: 250px;
+    width: 90%; /* Mantén las figuras dentro del 90% del ancho del contenedor */
+    max-width: 400px; /* Ancho máximo para controlar proporciones */
+    aspect-ratio: 16/9; /* Asegura una relación de aspecto uniforme */
     cursor: pointer;
     overflow: hidden;
     border-radius: 6px;
-    box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50);
 }
 
 .contenedor2 figure img {
     width: 100%;
     height: 100%;
+    object-fit: cover; /* Mantén la imagen ajustada al contenedor */
     transition: all 400ms ease-out;
     will-change: transform;
 }
@@ -646,17 +649,18 @@ titulo-planes {
 
 .contenedor2 figure .capa p {
     color: #fff;
-    font-size: 15px;
+    font-size: 10px;
     line-height: 1.5;
     max-width: 220px;
     margin: auto;
 }
 
-.contenedor h1{
+.contenedor h1 {
     text-align: center;
     font-size: 40px;
     color: olive;
 }
+
 
 
 /*Fin de la imagen con hover*/
