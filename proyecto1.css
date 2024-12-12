@@ -875,6 +875,11 @@ div[class^="checkbox"] label {
     text-align: center; /* Centra el texto */
     margin: 10px 0; /* Ajusta los márgenes */
   }
+ header p {
+    font-size: 16px; /* Reduce el tamaño del párrafo */
+    text-align: center; /* Centra el texto del párrafo */
+    line-height: 1.5; /* Ajusta el espaciado entre líneas */
+  }
 }
 
 
@@ -1022,6 +1027,18 @@ width: 100%;
   .footer-content {
     flex-direction: column; /* Acomoda las secciones en columna en pantallas pequeñas */
     text-align: center; /* Centra el texto */
+  }
+}
+
+   .contact-form {
+    width: 90%; /* Reduce el ancho del formulario al 90% de la pantalla */
+    max-width: 400px; /* Define un ancho máximo para que no se expanda demasiado */
+    margin: 0 auto; /* Centra el formulario horizontalmente */
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%; /* Asegura que los campos ocupen todo el ancho del contenedor */
   }
 }
 
